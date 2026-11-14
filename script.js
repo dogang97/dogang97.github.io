@@ -12,6 +12,13 @@
 
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  /* keep gradient text crisp: drop the compositing layer once the hero intro ends */
+  document.querySelectorAll(".hero__title .line").forEach(function (line) {
+    line.addEventListener("animationend", function () {
+      line.style.animation = "none";
+    });
+  });
+
   /* ---------- nav ---------- */
   var nav = document.getElementById("nav");
   var lastY = -1;
