@@ -334,12 +334,8 @@ em { font-style: normal; }
 .hero__title .line:nth-child(2) { animation-delay: 0.09s; }
 
 .hero__title em {
-  display: inline-block;
-  background: linear-gradient(96deg, #b3bcff 0%, #9ff2ea 34%, #ffffff 62%, #ffc2da 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
+  color: #b9c4ff;
+  text-shadow: 0 0 48px rgba(110, 123, 255, 0.45), 0 0 90px rgba(62, 224, 208, 0.22);
 }
 
 .hero__sub {
