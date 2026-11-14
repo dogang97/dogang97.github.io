@@ -52,6 +52,8 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 h1, h2, h3, h4 {
@@ -332,17 +334,12 @@ em { font-style: normal; }
 .hero__title .line:nth-child(2) { animation-delay: 0.09s; }
 
 .hero__title em {
-  background: linear-gradient(96deg, #a8b1ff 0%, #8ff0e6 38%, #ffffff 62%, #ffb7d4 100%);
-  background-size: 200% 100%;
+  display: inline-block;
+  background: linear-gradient(96deg, #b3bcff 0%, #9ff2ea 34%, #ffffff 62%, #ffc2da 100%);
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
-  animation: sheen 9s linear infinite;
-}
-
-@keyframes sheen {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 200% 50%; }
 }
 
 .hero__sub {
@@ -479,6 +476,7 @@ em { font-style: normal; }
   background: linear-gradient(180deg, #fff, #a9b0c6);
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
   font-variant-numeric: tabular-nums;
 }
@@ -525,6 +523,7 @@ em { font-style: normal; }
   background: linear-gradient(180deg, #ffffff 0%, #b7bdd0 130%);
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
@@ -711,6 +710,7 @@ em { font-style: normal; }
   background: linear-gradient(180deg, #fff, #c3c8d8);
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
@@ -924,6 +924,7 @@ em { font-style: normal; }
   background: linear-gradient(180deg, #fff, #b9bfd2);
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
