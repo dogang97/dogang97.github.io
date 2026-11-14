@@ -494,7 +494,7 @@ em { font-style: normal; }
 /* ---------- section frame ---------- */
 
 .section {
-  padding: clamp(60px, 9vw, 120px) clamp(20px, 6vw, 80px);
+  padding: clamp(56px, 7vw, 104px) clamp(20px, 6vw, 80px);
   scroll-margin-top: 80px;
 }
 
@@ -830,6 +830,7 @@ em { font-style: normal; }
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  align-items: start;
   gap: 12px;
 }
 
