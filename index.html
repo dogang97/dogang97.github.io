@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>도경환 · AI Product &amp; Data Portfolio</title>
+<meta name="description" content="AICC 상담 자동화, RAG 평가, LLM 학습 데이터. 모델이 실제로 일하는 지점을 만들어온 도경환의 포트폴리오.">
+<meta name="theme-color" content="#05060a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="도경환 · AI Product &amp; Data Portfolio">
+<meta property="og:description" content="RAG 평가 데이터, 개인정보 마스킹, 6만 건 학습 데이터. AI를 업무의 흐름에 연결합니다.">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "도경환",
+  "alternateName": "GyeongHwan Do",
+  "jobTitle": "Data Management",
+  "description": "LLM 학습·평가 데이터와 AICC 상담 자동화를 다뤄온 AI Product / Data 기획자",
+  "knowsAbout": ["RAG 평가", "LLM 학습 데이터", "프롬프트 엔지니어링", "개인정보 마스킹", "언어자원 구축"],
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "한국외국어대학교" },
+  "sameAs": [
+    "https://www.linkedin.com/in/gyeonghwando/",
+    "https://do-gang.tistory.com/"
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="backdrop" aria-hidden="true">
+  <div class="aurora aurora--indigo"></div>
+  <div class="aurora aurora--teal"></div>
+  <div class="aurora aurora--rose"></div>
+  <div class="grid-veil"></div>
+  <div class="grain"></div>
+</div>
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="맨 위로">
+    <span class="nav__mono">DH</span>
+    <span class="nav__name">도경환</span>
+  </a>
+  <nav class="nav__links" aria-label="섹션">
+    <a href="#about">소개</a>
+    <a href="#experience">경력</a>
+    <a href="#capability">역량</a>
+    <a href="#projects">프로젝트</a>
+    <a href="#contact">연락</a>
+  </nav>
+  <a class="nav__cta" href="mailto:rgo5502@gmail.com">이메일</a>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__inner">
+      <p class="eyebrow"><span class="eyebrow__dot"></span>AI Product · Data · 2026</p>
+      <h1 class="hero__title">
+        <span class="line">AI를 업무의</span>
+        <span class="line"><em>흐름</em>에 연결합니다</span>
+      </h1>
+      <p class="hero__sub">
+        LLM 학습·평가 데이터와 AICC 상담 자동화를 다뤄온 도경환입니다.
+        모델이 실제로 쓸 수 있는 데이터와 판단 기준을 만드는 일을 해왔습니다.
+      </p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#projects">프로젝트 보기</a>
+        <a class="btn btn--ghost" href="#contact">연락하기</a>
+      </div>
+      <ul class="hero__meta">
+        <li><span>현재</span>Coupang · Data Management</li>
+        <li><span>이전</span>SK텔레콤 · NCsoft · 와이즈넛</li>
+        <li><span>전공</span>한국외대 언어인지과학 · Language &amp; AI</li>
+      </ul>
+    </div>
+    <div class="hero__scroll" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" aria-label="주요 숫자">
+    <div class="stats__inner">
+      <div class="stat glass" data-reveal>
+        <strong class="stat__num" data-count="60000" data-suffix="+">60,000+</strong>
+        <span class="stat__label">LLM 학습 데이터 구축<br><em>NCsoft · 28개 도메인</em></span>
+      </div>
+      <div class="stat glass" data-reveal>
+        <strong class="stat__num" data-count="5400" data-suffix="">5,400</strong>
+        <span class="stat__label">AICC RAG 테스트셋<br><em>상담원 협업 구축</em></span>
+      </div>
+      <div class="stat glass" data-reveal>
+        <strong class="stat__num" data-count="40" data-suffix="%">40%</strong>
+        <span class="stat__label">주간 데이터 작업량 증가<br><em>평가 UI·가이드 개선</em></span>
+      </div>
+      <div class="stat glass" data-reveal>
+        <strong class="stat__num" data-count="8000" data-suffix="">8,000</strong>
+        <span class="stat__label">모델 응답 피드백 셋<br><em>개인화 요소 평가</em></span>
+      </div>
+      <div class="stat glass" data-reveal>
+        <strong class="stat__num" data-count="12096" data-suffix="">12,096</strong>
+        <span class="stat__label">감성·원인 태깅 문장<br><em>27가지 감정 분류</em></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section__head" data-reveal>
+      <p class="kicker">About</p>
+      <h2>모델을 만드는 대신,<br>모델이 믿을 수 있는 데이터를 만듭니다.</h2>
+    </div>
+
+    <div class="about">
+      <div class="about__main glass" data-reveal>
+        <p>
+          언어인지과학과 <em>Language &amp; AI</em>를 전공하며 언어 데이터를 다루는 법을 배웠고,
+          DICORA NLP LAB에서 감성분석 학습 데이터셋을 만들며 실무를 시작했습니다.
+        </p>
+        <p>
+          이후 와이즈넛에서 법률·정부 포털 챗봇의 검색 사전을, NCsoft에서 Varco LLM 학습 데이터 구축 PM을,
+          SK텔레콤에서 AICC RAG 평가와 통화 데이터 개인정보 마스킹을 맡았습니다.
+        </p>
+        <p>
+          제가 잘하는 일은 <em>기준을 만드는 일</em>입니다. 무엇이 좋은 답인지, 어떤 문서가 정답 근거인지,
+          어디까지가 개인정보인지 — 상담원·개발자·기획자가 같은 기준으로 판단할 수 있게 문서와 도구를 만듭니다.
+        </p>
+        <p class="about__now">
+          2026년 7월부터 쿠팡 Data Management에서 일하고 있습니다.
+        </p>
+      </div>
+
+      <aside class="about__side glass" data-reveal>
+        <h3>한 줄 요약</h3>
+        <ul class="mini-list">
+          <li><span>하는 일</span>LLM 평가 데이터 · 데이터 품질 SOP · AICC 기획</li>
+          <li><span>강점</span>도메인 지식을 가진 사람과 협업해 기준을 문서화</li>
+          <li><span>관심</span>RAG 검색 품질, 프롬프트 평가, 개인정보 안전한 데이터 활용</li>
+          <li><span>작업 방식</span>논문으로 근거를 잡고, 파이프라인으로 반복 가능하게</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section__head" data-reveal>
+      <p class="kicker">Experience</p>
+      <h2>상담 데이터에서 LLM 학습 데이터까지</h2>
+    </div>
+
+    <ol class="timeline">
+      <li class="tl glass" data-reveal>
+        <div class="tl__year">2026.07 — 현재</div>
+        <div class="tl__body">
+          <h3>Coupang <span>Data Management</span></h3>
+          <ul>
+            <li>데이터 운영·관리 업무</li>
+          </ul>
+        </div>
+      </li>
+      <li class="tl glass" data-reveal>
+        <div class="tl__year">2024.01 — 2026.01</div>
+        <div class="tl__body">
+          <h3>SK텔레콤 <span>AI Tech Product · LLM application팀</span></h3>
+          <ul>
+            <li>AICC RAG 임베딩·검색 성능 평가 리드, 상담원 협업 테스트셋 구축</li>
+            <li>통화 내역 개인정보 마스킹(PID) 설계와 규제 협의</li>
+            <li>개인화 요소 추출 모델 응답 품질 평가, 영어 데이터 구축</li>
+          </ul>
+        </div>
+      </li>
+      <li class="tl glass" data-reveal>
+        <div class="tl__year">2023.03 — 2023.09</div>
+        <div class="tl__body">
+          <h3>NCsoft <span>NLP Data engineering팀</span></h3>
+          <ul>
+            <li>Varco LLM 학습 데이터 구축 PM — 28개 도메인 약 60,000건</li>
+            <li>hallucination 유도 질의셋 구축과 윤리 평가</li>
+            <li>리니지 동시 번역 다국어 코퍼스 협업</li>
+          </ul>
+        </div>
+      </li>
+      <li class="tl glass" data-reveal>
+        <div class="tl__year">2022.12 — 2023.02</div>
+        <div class="tl__body">
+          <h3>와이즈넛 <span>ABM 챗봇팀 · 인턴</span></h3>
+          <ul>
+            <li>법무법인세종 챗봇 용어사전 구축</li>
+            <li>보조금24 의미기반 검색 사전 구축</li>
+          </ul>
+        </div>
+      </li>
+      <li class="tl glass" data-reveal>
+        <div class="tl__year">2022.01 — 2022.09</div>
+        <div class="tl__body">
+          <h3>DICORA NLP LAB <span>주니어 연구원</span></h3>
+          <ul>
+            <li>Multi-labeled ABSA 감성분석 학습 데이터셋 구축</li>
+            <li>심리 도메인 상담 텍스트 수집·전처리·태깅</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- CAPABILITY -->
+  <section class="section" id="capability">
+    <div class="section__head" data-reveal>
+      <p class="kicker">Capability</p>
+      <h2>여섯 가지 일의 방식</h2>
+    </div>
+
+    <div class="bento">
+      <article class="bento__card bento__card--wide glass" data-reveal>
+        <p class="bento__tag">01 · RAG 평가</p>
+        <h3>검색이 맞는 문서를<br>Top-5 안에 올리는지 확인합니다</h3>
+        <p class="bento__text">
+          청킹·임베딩 모델·Top-K·ReRanker를 조합한 실험 시나리오를 설계하고,
+          2,500여 개 질의를 기준선으로 Retrieval과 생성 품질을 분리해 평가했습니다.
+        </p>
+      </article>
+
+      <article class="bento__card glass" data-reveal>
+        <p class="bento__tag">02 · 데이터 품질</p>
+        <h3>작업자 편차를<br>가이드로 줄입니다</h3>
+        <p class="bento__text">아웃라이어·결측치·중복 처리 기준을 문서화하고, 크로스 체크로 결과 신뢰도를 올렸습니다.</p>
+      </article>
+
+      <article class="bento__card glass" data-reveal>
+        <p class="bento__tag">03 · Privacy</p>
+        <h3>개인정보를 지우고<br>데이터는 남깁니다</h3>
+        <p class="bento__text">사전 검색 + 패턴 매칭 기반 PID 모듈, 규제 협의, 세이프티 코퍼스까지.</p>
+      </article>
+
+      <article class="bento__card glass" data-reveal>
+        <p class="bento__tag">04 · Prompt</p>
+        <h3>모델의 약점을<br>먼저 찾습니다</h3>
+        <p class="bento__text">역할 기반 프롬프트로 hallucination을 유도해 취약 도메인을 드러내는 평가셋을 만들었습니다.</p>
+      </article>
+
+      <article class="bento__card bento__card--tall glass" data-reveal>
+        <p class="bento__tag">05 · 언어자원</p>
+        <h3>사전과 코퍼스를<br>직접 짓습니다</h3>
+        <p class="bento__text">
+          토큰화·정규화, 동의어·상하위어 확장, 감정 어휘 태깅.
+          법률 판결문 사전은 전체의 35% 이상을, 정부 포털 검색 사전은 8,000여 개 상·하위어를 직접 구축하고 검수했습니다.
+        </p>
+      </article>
+
+      <article class="bento__card bento__card--wide glass" data-reveal>
+        <p class="bento__tag">06 · 프로젝트 리드</p>
+        <h3>5단계 파이프라인으로<br>일정을 앞당깁니다</h3>
+        <p class="bento__text">
+          탐색–수집–추출–정형화–검토. 6개월 프로젝트에서 8명 팀의 역할과 일정을 관리해
+          산학 프로젝트 평균 대비 4개월 이상 빠르게 마쳤습니다.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section__head" data-reveal>
+      <p class="kicker">Selected Work</p>
+      <h2>프로젝트</h2>
+      <p class="section__sub">카드를 누르면 목표·역할·성과를 볼 수 있습니다.</p>
+    </div>
+
+    <div class="projects" id="projectGrid">
+
+      <article class="project glass" data-cat="rag" tabindex="0" role="button" aria-haspopup="dialog" data-reveal>
+        <div class="project__top"><span class="tag">RAG · 평가</span><span class="project__period">2024.02 – 2026.01</span></div>
+        <h3>AICC RAG 성능 평가 리드</h3>
+        <p class="project__org">SK텔레콤 · LLM application팀</p>
+        <p class="project__desc">상담원이 실시간·후처리 업무에서 정확한 답을 찾도록, 검색 품질을 측정하는 데이터와 평가 화면을 만들었습니다.</p>
+        <div class="project__metrics"><span>테스트셋 5,400건</span><span>주간 작업량 +40%</span></div>
+        <span class="project__more">자세히 보기<span aria-hidden="true">→</span></span>
+        <template class="project__detail">
+          <p class="detail__lead">상담원 매뉴얼을 근거로 답하는 RAG 시스템에서, “맞는 문서를 상위 5건 안에 올리는가”를 사람이 판정할 수 있는 형태로 만들었습니다.</p>
+          <h4>목표</h4>
+          <ul>
+            <li>AICC 상담 자동화로 상담원의 실시간·후처리 응대 품질 표준화</li>
+            <li>LLM 기반 RAG 평가·학습 데이터셋 구축</li>
+          </ul>
+          <h4>역할</h4>
+          <ul>
+            <li>도메인 지식을 가진 상담원과 협업해 상담 문서 기반 테스트셋 5,400건 구축</li>
+            <li>통신 도메인 5,000건 + 자유 발화 400건 학습 데이터셋 구축</li>
+            <li>상담원용 평가 UI·웹 평가 페이지 기획·설계로 판정 절차 간소화</li>
+            <li>파운데이션 모델별 응답 품질 평가, 아웃라이어·결측치 처리 기준 수립</li>
+          </ul>
+          <h4>성과</h4>
+          <ul>
+            <li>중복·노이즈 제거로 주간 데이터 작업량 40% 증가</li>
+            <li>상담원별 작업량·평가 차이를 분석해 작업 가이드 수립</li>
+            <li>고객 대기시간 단축·만족도 향상, 응대 품질의 정량화 기반 확보</li>
+          </ul>
+          <p class="detail__stack">Python · RAG 평가 · Jira · 데이터 품질 관리</p>
+        </template>
+      </article>
+
+      <article class="project glass" data-cat="data" tabindex="0" role="button" aria-haspopup="dialog" data-reveal>
+        <div class="project__top"><span class="tag">Privacy · Python</span><span class="project__period">2024.05 – 2025.02</span></div>
+        <h3>STT 통화데이터 개인정보 마스킹</h3>
+        <p class="project__org">SK텔레콤 · LLM application팀</p>
+        <p class="project__desc">통화 내역을 학습 데이터로 쓰기 위해, 규제와 데이터 활용 사이의 선을 코드로 그었습니다.</p>
+        <div class="project__metrics"><span>마스킹 정확도 80%대</span><span>PID 모듈 설계</span></div>
+        <span class="project__more">자세히 보기<span aria-hidden="true">→</span></span>
+        <template class="project__detail">
+          <p class="detail__lead">개인정보보호위원회와 협의해 가이드를 정하고, 그 기준을 판정하는 도구를 직접 만들었습니다.</p>
+          <h4>목표</h4>
+          <ul>
+            <li>통화 내역 데이터의 개인정보 보호와 활용 가능성 확보</li>
+            <li>규제를 충족하면서 학습 데이터 품질을 유지</li>
+          </ul>
+          <h4>역할</h4>
+          <ul>
+            <li>개인정보보호위원회 협의를 통한 데이터 활용 가이드라인 수립</li>
+            <li>PID(Personal Information Detector) 설계·구현 — 사전 검색 + 패턴 매칭, 항목별 detect_type</li>
+            <li>정책 변경에 따른 세이프티 코퍼스 구축(비윤리 단어·민감정보 필터링)</li>
+            <li>음성인식팀과 협업해 STT 간투어·발화 패턴 정규화</li>
+            <li>마스킹 과적용 분석·최적화로 오류율 최소화</li>
+          </ul>
+          <h4>성과</h4>
+          <ul>
+            <li>마스킹 정확도·민감정보 검출률 80%대 유지</li>
+            <li>규제 기준 충족과 학습 데이터 품질 유지 동시 달성</li>
+            <li>STT 오탈자·비정형 텍스트 정규화로 데이터 신뢰도 향상</li>
+          </ul>
+          <p class="detail__stack">Python · 패턴 매칭 · 사전 기반 필터링 · STT 전처리</p>
+        </template>
+      </article>
+
+      <article class="project glass" data-cat="data" tabindex="0" role="button" aria-haspopup="dialog" data-reveal>
+        <div class="project__top"><span class="tag">평가 · 운영</span><span class="project__period">2025.03 – 2025.10</span></div>
+        <h3>개인화 요소 추출 모델 응답 품질 평가</h3>
+        <p class="project__org">SK텔레콤 · LLM application팀</p>
+        <p class="project__desc">파운데이션 모델이 사용자 정보를 얼마나 잘 뽑아 쓰는지, 동일 기준으로 비교했습니다.</p>
+        <div class="project__metrics"><span>피드백 셋 8,000건</span><span>모델별 비교</span></div>
+        <span class="project__more">자세히 보기<span aria-hidden="true">→</span></span>
+        <template class="project__detail">
+          <h4>목표</h4>
+          <ul>
+            <li>AI 모델의 사용자 개인화 요소 특정</li>
+            <li>파운데이션 모델별 응답 품질 비교</li>
+          </ul>
+          <h4>역할</h4>
+          <ul>
+            <li>모델 평가 작업 가이드라인 수립</li>
+            <li>작업자 데이터 관리와 일정 리드, 모델별 응답 처리 기준 정의</li>
+            <li>영어 개인화 요소 추출과 응답 비교안 작성</li>
+          </ul>
+          <h4>성과</h4>
+          <ul>
+            <li>파운데이션 모델별 데이터 품질 비교 기준 확보</li>
+            <li>텍스트 데이터 8,000건 피드백 셋 구축</li>
+          </ul>
+          <p class="detail__stack">Python · Excel · Jira</p>
+        </template>
+      </article>
+
+      <article class="project glass" data-cat="llm" tabindex="0" role="button" aria-haspopup="dialog" data-reveal>
+        <div class="project__top"><span class="tag">PM · LLM</span><span class="project__period">2023.03 – 2023.09</span></div>
+        <h3>Varco LLM 학습 데이터 구축 PM</h3>
+        <p class="project__org">NCsoft · NLP Data engineering팀</p>
+        <p class="project__desc">논문 리뷰 모임에서 출발해 5단계 파이프라인을 세우고, 8명 팀과 6만 건의 학습 데이터를 만들었습니다.</p>
+        <div class="project__metrics"><span>28개 도메인 · 60,000건</span><span>일정 4개월+ 단축</span></div>
+        <span class="project__more">자세히 보기<span aria-hidden="true">→</span></span>
+        <template class="project__detail">
+          <p class="detail__lead">Chain of Thought 프롬프팅 논문을 팀과 함께 리뷰하며, 추론 가능한 데이터를 어떻게 정형화할지부터 정했습니다.</p>
+          <h4>목표</h4>
+          <ul>
+            <li>Varco 언어모델 학습용 대규모 데이터 구축과 품질 고도화</li>
+            <li>CoT 기반 추론 데이터셋 설계, 구축 프로세스 표준화</li>
+          </ul>
+          <h4>역할</h4>
+          <ul>
+            <li>PM으로 전체 일정·리소스 관리와 역할 배분 총괄</li>
+            <li>CoT 프롬프팅 논문 리뷰 세션 주도, 정형화 기준 수립</li>
+            <li>탐색–수집–추출–정형화–검토 5단계 파이프라인 설계·운영</li>
+            <li>개발자·비개발자 간 역량 차이를 줄이는 커뮤니케이션 체계 구축</li>
+          </ul>
+          <h4>성과</h4>
+          <ul>
+            <li>28개 도메인 약 60,000건 학습 데이터 구축 완료</li>
+            <li>산학 프로젝트 평균 대비 4개월 이상 일정 단축</li>
+            <li>4명으로 시작한 팀을 8명 규모로 운영하며 파이프라인 표준화</li>
+          </ul>
+          <p class="detail__stack">Python · Pandas · Jira · Chain of Thought Prompting</p>
+        </template>
+      </article>
+
+      <article class="project glass" data-cat="llm" tabindex="0" role="button" aria-haspopup="dialog" data-reveal>
+        <div class="project__top"><span class="tag">평가 · Prompt</span><span class="project__period">2023.06 – 2023.08</span></div>
+        <h3>Prompt 기반 hallucination 윤리 평가</h3>
+        <p class="project__org">NCsoft · NLP Data engineering팀</p>
+        <p class="project__desc">모델이 언제 무너지는지 보려고, 일부러 hallucination을 유도하는 질의셋을 설계했습니다.</p>
+        <div class="project__metrics"><span>도메인별 3–8% 검출</span><span>혐오·갈등·자살·역사 왜곡</span></div>
+        <span class="project__more">자세히 보기<span aria-hidden="true">→</span></span>
+        <template class="project__detail">
+          <h4>목표</h4>
+          <ul>
+            <li>Varco LLM 응답 품질 검증을 위한 평가 체계 구축</li>
+            <li>민감 주제에서 위험 응답 발생률 최소화</li>
+          </ul>
+          <h4>역할</h4>
+          <ul>
+            <li>역할 기반(Role-based) 프롬프트로 hallucination을 유도하는 평가 기법 설계·개발 주도</li>
+            <li>비윤리 카테고리 중심 질의셋 구축</li>
+            <li>모델 취약 영역 분석을 위한 질의 데이터셋 구축</li>
+          </ul>
+          <h4>성과</h4>
+          <ul>
+            <li>도메인별 3~8% 수준의 hallucination 사례 검출</li>
+            <li>위험 영역 식별과 대응 전략 수립, 데이터 정제·재학습 방향 제시</li>
+          </ul>
+          <p class="detail__stack">Prompt Engineering · 평가셋 설계</p>
+        </template>
+      </article>
+
+      <article class="project glass" data-cat="data" tabindex="0" role="button" aria-haspopup="dialog" data-reveal>
+        <div class="project__top"><span class="tag">언어자원</span><span class="project__period">2022.12 – 2023.02</span></div>
+        <h3>법무법인세종 챗봇 용어사전</h3>
+        <p class="project__org">와이즈넛 · ABM 챗봇팀</p>
+        <p class="project__desc">법률 용어와 판결문을 토큰화·정규화하고, 챗봇 엔티티 검색용 동의어 체계를 만들었습니다.</p>
+        <div class="project__metrics"><span>전체 사전 35% 구축·검수</span><span>KoNLPy</span></div>
+        <span class="project__more">자세히 보기<span aria-hidden="true">→</span></span>
+        <template class="project__detail">
+          <h4>목표</h4>
+          <ul>
+            <li>법률 상담 챗봇의 엔티티 검색 정확도 향상을 위한 용어·판결문 사전 구축</li>
+            <li>전문 용어와 사용자 질의 사이의 의미 격차 해소</li>
+          </ul>
+          <h4>역할</h4>
+          <ul>
+            <li>Python 기반 워드 토큰화·정규화 로직 설계</li>
+            <li>동의어·유의어 체계 구축, SNS 용어·신조어로 검색 범위 확장</li>
+            <li>판례·법률 문서 크롤링과 정형화 자동화</li>
+            <li>언어학 기반으로 용어 중복·의미 불일치 최소화</li>
+          </ul>
+          <h4>성과</h4>
+          <ul>
+            <li>법률 도메인 전용 엔티티 사전 구축 완료, 전체 사전의 35% 이상 구축·검수</li>
+            <li>동의어 확장으로 검색 커버리지 확대</li>
+          </ul>
+          <p class="detail__stack">Python · KoNLPy · 크롤링 · 언어자원 구축</p>
+        </template>
+      </article>
+
+      <article class="project glass" data-cat="data" tabindex="0" role="button" aria-haspopup="dialog" data-reveal>
+        <div class="project__top"><span class="tag">언어자원</span><span class="project__period">2022.12 – 2023.02</span></div>
+        <h3>보조금24 의미기반 검색사전</h3>
+        <p class="project__org">와이즈넛 · ABM 챗봇팀</p>
+        <p class="project__desc">정부 포털 챗봇이 실제 사용자 말로 답하게, 상·하위어 8,000여 개를 파생하고 검수했습니다.</p>
+        <div class="project__metrics"><span>8,000여 상·하위어</span><span>일 350–400개 처리</span></div>
+        <span class="project__more">자세히 보기<span aria-hidden="true">→</span></span>
+        <template class="project__detail">
+          <h4>목표</h4>
+          <ul>
+            <li>보조금24 도메인에 한정된 의미기반 검색사전 구축</li>
+            <li>실사용자 관점의 동의어·유의어, 서비스명·요약 정리</li>
+          </ul>
+          <h4>역할</h4>
+          <ul>
+            <li>크롤링으로 확보한 정부24 하위 카테고리 어휘를 일평균 350~400개 처리</li>
+            <li>총 8,000여 개 상·하위어 파생 및 검수</li>
+            <li>국립국어원 대사전 참조, 어휘 관계 정립</li>
+          </ul>
+          <h4>성과</h4>
+          <ul>
+            <li>구축 코퍼스 체계화로 검색 시스템 성능 향상에 기여</li>
+          </ul>
+          <p class="detail__stack">Python · 크롤링 · 어휘 관계 설계</p>
+        </template>
+      </article>
+
+      <article class="project glass" data-cat="data" tabindex="0" role="button" aria-haspopup="dialog" data-reveal>
+        <div class="project__top"><span class="tag">데이터</span><span class="project__period">2022</span></div>
+        <h3>감성분석 학습 데이터셋</h3>
+        <p class="project__org">DICORA NLP LAB · 주니어 연구원</p>
+        <p class="project__desc">심리 도메인 문장 4만여 개를 전처리하고, 감정과 원인을 문장 안에서 태깅했습니다.</p>
+        <div class="project__metrics"><span>41,155문장 전처리</span><span>12,096문장 태깅</span></div>
+        <span class="project__more">자세히 보기<span aria-hidden="true">→</span></span>
+        <template class="project__detail">
+          <h4>목표</h4>
+          <ul>
+            <li>Multi-labeled ABSA·감정 원인 추출 모델을 위한 학습 데이터 구축</li>
+            <li>감정 분류체계 표준화와 데이터 품질 고도화</li>
+          </ul>
+          <h4>역할</h4>
+          <ul>
+            <li>심리 도메인 문장 41,155개 전처리</li>
+            <li>27가지 감정 분류표 기반으로 12,096문장에 감정·원인 태깅</li>
+            <li>관용표현·반어법 등 태깅 한계를 정리해 새 사전 구축 제안</li>
+          </ul>
+          <h4>성과</h4>
+          <ul>
+            <li>고품질 심리 도메인 감정 데이터셋 구축</li>
+            <li>전처리·다중 라벨링 자동화로 작업 효율 30% 개선</li>
+          </ul>
+          <p class="detail__stack">Python · Pandas · 정규표현식 · Excel 태깅 툴</p>
+        </template>
+      </article>
+
+      <article class="project glass" data-cat="planning" tabindex="0" role="button" aria-haspopup="dialog" data-reveal>
+        <div class="project__top"><span class="tag">기획</span><span class="project__period">2026</span></div>
+        <h3>AICC 제품 기획안 — 보이스봇 + Agent Assist</h3>
+        <p class="project__org">개인 산출물</p>
+        <p class="project__desc">상담 자동화와 상담사 지원을 한 제품으로 묶고, 가격과 미터링까지 설계한 기획안입니다.</p>
+        <div class="project__metrics"><span>경쟁사 7곳 가격 비교</span><span>구축형 + SaaS형</span></div>
+        <span class="project__more">자세히 보기<span aria-hidden="true">→</span></span>
+        <template class="project__detail">
+          <p class="detail__lead">반복 문의 자동화와 상담사 지원을 함께 제공하는 AICC를, SI 구축형과 범용 SaaS 사이의 포지션으로 정의했습니다.</p>
+          <h4>담은 것</h4>
+          <ul>
+            <li>문제 정의: 반복 문의·상담사 숙련도 편차·매뉴얼 탐색 시간</li>
+            <li>포지셔닝: 빠른 도입성(기존 자산 재사용) + 운영 통제력(관리자 콘솔·품질 테스트)</li>
+            <li>경쟁 분석: KT A’Cen Cloud, 삼성SDS, NAVER Cloud, LG CNS, 브릿지AI, 네이블 등 공개 가격·과금 방식 비교</li>
+            <li>가격 제안: 구축형 3단계(라이트·상품형·기업형) + 연 유지보수, SaaS형 테넌트·좌석·동시회선 과금</li>
+            <li>미터링 설계: 좌석 수 / 회선 수 / 음성 처리 사용량</li>
+          </ul>
+          <h4>초점</h4>
+          <ul>
+            <li>“대형 SI보다 싸다”가 아니라 “구축 기간과 커스터마이징 범위를 줄여 총 도입비용을 낮춘다”는 논리</li>
+          </ul>
+          <p class="detail__stack">제품 기획 · 시장 분석 · 가격 설계</p>
+        </template>
+      </article>
+
+      <article class="project glass" data-cat="planning" tabindex="0" role="button" aria-haspopup="dialog" data-reveal>
+        <div class="project__top"><span class="tag">기획</span><span class="project__period">2026</span></div>
+        <h3>LLM PM 사전과제 — 제약을 요구사항으로 바꾸기</h3>
+        <p class="project__org">개인 산출물</p>
+        <p class="project__desc">A100 2장에 70B 모델, OCR이 깨진 설비 매뉴얼, 슈퍼 어드민 권한의 Agent. 세 가지 제약에 답한 과제입니다.</p>
+        <div class="project__metrics"><span>3개 케이스</span><span>3주 일정 재설계</span></div>
+        <span class="project__more">자세히 보기<span aria-hidden="true">→</span></span>
+        <template class="project__detail">
+          <h4>Case 1 · 온프레미스 70B 요구</h4>
+          <ul>
+            <li>“70B 모델 사용”을 “5초 이내 응답에서 한국어 업무 답변 품질 최대화”로 재정의</li>
+            <li>14B~32B sLLM + 하이브리드 검색·Reranker·Top-3~5 RAG로 실시간 처리, 70B는 고난도 질의 fallback·야간 배치로 한정</li>
+          </ul>
+          <h4>Case 2 · 저화질 OCR 설비 매뉴얼</h4>
+          <ul>
+            <li>문서를 A/B/C 등급으로 나누고, 숫자·도면 중심 저신뢰 문서는 답변 생성에서 제외</li>
+            <li>Numeric Lock: 수치 질의에 저신뢰 근거만 있으면 단정 답변 대신 원본 페이지·문서 버전 제시</li>
+            <li>답변 중심이 아닌 근거 확인형 UI, 3주 일정을 신뢰성 확보에 재배분</li>
+          </ul>
+          <h4>Case 3 · Agent 권한 구조</h4>
+          <ul>
+            <li>LLM을 권한 판단 주체로 두지 않고 Tool Call 후보 생성까지만</li>
+            <li>실제 실행은 서버 정책·권한 검증 계층에서 결정</li>
+          </ul>
+          <p class="detail__stack">제품 기획 · RAG 아키텍처 · 보안 설계</p>
+        </template>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="section" id="stack">
+    <div class="section__head" data-reveal>
+      <p class="kicker">Stack &amp; Credentials</p>
+      <h2>도구와 자격</h2>
+    </div>
+
+    <div class="stack-grid">
+      <div class="stack__card glass" data-reveal>
+        <h3>Language &amp; Data</h3>
+        <ul class="chips">
+          <li>Python</li><li>Pandas</li><li>SQL</li><li>R</li><li>KoNLPy</li>
+          <li>정규표현식</li><li>크롤링</li><li>Excel</li><li>Google Sheets</li><li>Tableau</li>
+        </ul>
+      </div>
+      <div class="stack__card glass" data-reveal>
+        <h3>LLM Work</h3>
+        <ul class="chips">
+          <li>RAG 평가</li><li>프롬프트 엔지니어링</li><li>hallucination 평가</li>
+          <li>학습데이터 구축</li><li>라벨링 설계</li><li>데이터 품질 SOP</li>
+        </ul>
+      </div>
+      <div class="stack__card glass" data-reveal>
+        <h3>Collaboration</h3>
+        <ul class="chips">
+          <li>Jira</li><li>Confluence</li><li>Git</li><li>PPT</li><li>Word</li><li>논문 리뷰</li>
+        </ul>
+      </div>
+
+      <div class="stack__card glass stack__card--edu" data-reveal>
+        <h3>Education</h3>
+        <p class="edu__school">한국외국어대학교</p>
+        <p class="edu__detail">언어인지과학과 · Language &amp; AI 이중전공<br>학사(언어학/언어공학)</p>
+        <ul class="mini-list mini-list--tight">
+          <li><span>대외활동</span>산업수학 Python 데이터분석 프로그램(국가수리과학연구소) · HUFS Ability Python</li>
+          <li><span>외부교육</span>스파르타코딩클럽 데이터분석 부트캠프 · 항해99 코딩테스트 부트캠프</li>
+        </ul>
+      </div>
+
+      <div class="stack__card glass stack__card--cert" data-reveal>
+        <h3>Certificates</h3>
+        <ul class="cert-list">
+          <li><span>AWS</span>Certified Solutions Architect – Associate</li>
+          <li><span>ADsP</span>데이터 분석 준전문가</li>
+          <li><span>OPIc</span>Intermediate High</li>
+          <li><span>TOEIC S</span>Intermediate High (140)</li>
+          <li><span>GA</span>Google Analytics Certified</li>
+          <li><span>FLEX</span>2B</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--contact" id="contact">
+    <div class="contact glass" data-reveal>
+      <p class="kicker">Contact</p>
+      <h2>데이터와 AI 사이에서<br>같이 고민할 일이 있다면</h2>
+      <p class="contact__sub">평가 기준을 세우는 일, 상담·운영 데이터를 AI가 쓸 수 있게 만드는 일을 좋아합니다.</p>
+      <div class="contact__actions">
+        <a class="btn btn--primary" href="mailto:rgo5502@gmail.com">rgo5502@gmail.com</a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/gyeonghwando/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+      <ul class="contact__links">
+        <li><a href="https://do-gang.tistory.com/" target="_blank" rel="noopener">기술 블로그 ↗</a></li>
+        <li><a href="http://dicora.kr/assistant-%EB%8F%84%EA%B2%BD%ED%99%98/" target="_blank" rel="noopener">DICORA LAB ↗</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 도경환. Notion 워크스페이스의 경력기술서·프로젝트 기록을 바탕으로 제작했습니다.</p>
+  <a href="#top">맨 위로 ↑</a>
+</footer>
+
+<!-- MODAL -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel glass" role="document">
+    <button class="modal__close" type="button" aria-label="닫기" data-close>✕</button>
+    <div class="modal__head">
+      <span class="tag" id="modalTag"></span>
+      <span class="project__period" id="modalPeriod"></span>
+    </div>
+    <h2 class="modal__title" id="modalTitle"></h2>
+    <p class="modal__org" id="modalOrg"></p>
+    <div class="modal__body" id="modalBody"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
